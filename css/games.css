@@ -1,0 +1,111 @@
+body{
+	background: 	black;
+	font-family: 'Lato', sans-serif;
+	margin:			0px;
+}
+
+#topbar{
+	color:	white;
+	text-align: center;
+	font-size: 15px;
+}
+
+#topbar h1 {
+	margin: 0;
+	height: 40px;
+	font-weight: 400;
+}
+
+#nav-bar{
+	position:	absolute;
+	top:		0px;
+	right:  	0px;
+	padding:	15px;
+	color:		white;
+	height:		40px;
+}
+
+#nav-bar a {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 12px;
+	display: inline-block;
+	margin: 5px 20px;
+	text-decoration: none;
+}
+
+#nav-bar a:hover {
+	text-decoration: underline;
+}
+
+#container{
+	display: 		flex;
+	align-items: 	center;
+	justify-content: center; 
+	flex-flow: row wrap;
+	min-height:		calc(100vh - 40px);
+	min-width: 		100vw;
+	height: calc(100vh - 40px);
+	width: 100vw;
+}
+
+.game{
+	min-width: 50%;
+    width: 50%;
+    min-height: 50%;
+    height: 50%;
+    box-sizing: border-box;
+	border:			10px black solid;
+	background: 	red; 
+}
+
+.axolotl{
+	background: url('../images/AxolotlGame.png');
+	background-size: cover;
+}
+
+a{
+	color:	white;
+}
+
+.game h1 {
+	display: block;
+	height: 100%;
+	margin: 0;
+	z-index: 100;
+	width: 100%;
+	text-align: center; 
+	display:	flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: rgba(256,256,256,0.75);
+	opacity: 0;
+	transition: opacity 0.3s;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-size: 52px;
+	font-weight: 900;
+}
+
+.game h1 div {
+	letter-spacing: 0px;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.game:hover h1 {
+	opacity: 1;
+	transtion: opacity 0.3s;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .game {
+    	height: 25%;
+    	min-height: 25%;
+    	width: 100%;
+    	min-width: 100%;
+    }
+}
