@@ -1,11 +1,17 @@
 body{
 	font-family: 'Lato', sans-serif;
+	background: black;
 	padding:		 0px;
 	margin:			 0px;
 }
 
 a {
+	color: white;
 	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 #social-icons{
@@ -33,15 +39,20 @@ a {
 	display: 			flex; 
 	justify-content: space-around;
 	width:				100%;
+	text-transform: uppercase;
+	letter-spacing: 6px;
 }
 
 #subtitle h2{
 	text-align:			center;
+	color: white;
 }
 
 #name {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
+	color: white;
+	letter-spacing: 6px;
 }
 
 .filler {
