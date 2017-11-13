@@ -11,7 +11,8 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	color: rgb(37,159,248);
 }
 
 #social-icons{
