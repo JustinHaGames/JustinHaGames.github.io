@@ -40,7 +40,7 @@ a:hover {
 	justify-content: space-around;
 	width:				100%;
 	text-transform: uppercase;
-	letter-spacing: 6px;
+	letter-spacing: 5px;
 }
 
 #subtitle h2{
@@ -52,7 +52,7 @@ a:hover {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
 	color: white;
-	letter-spacing: 6px;
+	letter-spacing: 5px;
 }
 
 .filler {
@@ -62,3 +62,8 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 }
+
+/*.border{
+	padding: 3px;
+	border: 3px white solid;
+}*/
