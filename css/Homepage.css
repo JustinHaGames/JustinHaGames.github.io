@@ -1,0 +1,73 @@
+body{
+	font-family: 'Lato', sans-serif;
+	background: black;
+	padding:		 0px;
+	margin:			 0px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#social-icons{
+	padding-left:	15px;
+	padding-top: 	10px;
+	margin: 		0px; 
+	position: 		absolute;
+	text-decoration: none;
+}
+
+#Outer-container{
+	display: 			flex;
+	flex-direction: 	column;
+	align-items: 		center;
+	justify-content:	center;
+	min-height: 		100vh;
+	min-width: 			100vw;
+}
+
+#Inner-container{
+	text-align: 		center;
+	width:				100%;
+}
+
+#tabs{
+	display: 			flex; 
+	justify-content: space-around;
+	width:				100%;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+#subtitle h2{
+	text-align:			center;
+	color: white;
+}
+
+#name {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	color: white;
+	letter-spacing: 5px;
+}
+
+.filler {
+	width: 100%;
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.games:hover {
+	color: rgb(37,159,248);
+}
+
+.about:hover{
+	color: rgb(255,251,59);
+}
+
+.resume:hover{
+	color: rgb(255,75,51);
+}
