@@ -10,9 +10,16 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	/*text-decoration: underline;*/
+.games:hover {
 	color: rgb(37,159,248);
+}
+
+.about:hover{
+	color: rgb(255,251,59);
+}
+
+.resume:hover{
+	color: rgb(255,75,51);
 }
 
 #social-icons{
@@ -63,8 +70,3 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 }
-
-/*.border{
-	padding: 3px;
-	border: 3px white solid;
-}*/
