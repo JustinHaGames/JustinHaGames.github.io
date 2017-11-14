@@ -10,7 +10,7 @@ a {
 	text-decoration: none;
 }
 
-.games:hover {
+/*.games:hover {
 	color: rgb(37,159,248);
 }
 
@@ -20,7 +20,7 @@ a {
 
 .resume:hover{
 	color: rgb(255,75,51);
-}
+}*/
 
 #social-icons{
 	padding:		0px;
