@@ -10,18 +10,6 @@ a {
 	text-decoration: none;
 }
 
-.games:hover {
-	color: rgb(37,159,248);
-}
-
-.about:hover{
-	color: rgb(255,251,59);
-}
-
-.resume:hover{
-	color: rgb(255,75,51);
-}
-
 #social-icons{
 	padding:		0px;
 	margin: 		0px; 
@@ -69,4 +57,16 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.games:hover {
+	color: rgb(37,159,248);
+}
+
+.about:hover{
+	color: rgb(255,251,59);
+}
+
+.resume:hover{
+	color: rgb(255,75,51);
 }
