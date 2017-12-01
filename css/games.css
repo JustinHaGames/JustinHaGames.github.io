@@ -86,12 +86,17 @@ body{
 }
 
 .axolotl{
-	background: url('../images/AxolotlGame.png');
+	background: url('../images/AxolotlGameplay.png');
 	background-size: cover;
 }
 
 .malwar{
 	background: url('../images/MalWar.png');
+	background-size: cover;
+}
+
+.toomanycooks{
+	background: url('../images/TooManyCooks.jpeg');
 	background-size: cover;
 }
 
