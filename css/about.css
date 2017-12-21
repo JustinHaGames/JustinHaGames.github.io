@@ -1,0 +1,36 @@
+html, body {
+	background: white;
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+#container{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	justify-content: center;
+}
+
+#ProfilePic {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1 1 auto;
+	min-width: 500px;
+}
+
+#Description {
+	display: flex;
+	align-items: center;
+	flex: 2 1 auto;
+	margin: 80px;
+	max-width: 600px;
+}
+
+p {
+	font-size: 20px;
+}

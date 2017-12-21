@@ -8,11 +8,15 @@ html, body {
 p {
 	color: black;
 	font-size: 15px;
-
 }
 
 b{
 	font-size: 20px; 
+}
+
+h1{
+	color: black;
+	margin: 5px;
 }
 
 img {
@@ -26,6 +30,10 @@ img {
 	border-color: black; 
 	padding: 0px;
 	margin: 75px auto;
+}
+
+a{
+	color: black;
 }
 
 #nav-bar{
@@ -95,4 +103,40 @@ img {
 .rules{
 	border: 2px solid black;
 	padding: 4px;
+	transition: all 0.2s
+}
+
+.rules h1 {
+	color: black;
+	transition: color 0.2s;
+}
+
+.rules:hover {
+	color: white;
+	background: black;
+	transition: all 0.3s;
+}
+
+.rules:hover h1 {
+	color: white;
+	transition: color 0.2s;
+}
+
+img{
+    max-width: 750px;
+}
+
+#Text{
+   	max-width: 750px;
+}
+
+@media only screen and (max-device-width: 768px) {
+
+   	b{
+   		font-size: 60px;
+   	}
+
+   	p{
+   		font-size: 45px;
+   	}
 }
