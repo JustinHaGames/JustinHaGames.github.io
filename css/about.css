@@ -24,6 +24,21 @@ html, body {
 	text-decoration: none;
 }
 
+.home {
+	text-decoration: none;
+	color: black;
+}
+
+.games {
+	text-decoration: none;
+	color: black;
+}
+
+.resume{
+	text-decoration: none;
+	color: black;
+}
+
 .home:hover {
 	color: rgb(37,159,248);
 }
