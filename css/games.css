@@ -135,6 +135,7 @@ a{
 .game:hover h1 {
 	opacity: 1;
 	transtion: opacity 0.3s;
+	color: black;
 }
 
 @media only screen and (max-device-width: 768px) {
