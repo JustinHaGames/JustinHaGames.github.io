@@ -1,4 +1,4 @@
-const text = 'Hello my name is Justin and I';
+const text = 'Hi! My name is Justin and I';
 
 const varyingText = ['am a Game Designer.', 'like creating games about complex emotions.', 'am getting better at Pixel Art.', 'love Anthropology.', 'am constantly learning new things.', 'am getting the hang of Web Design.', 'play a lot of competitive games.'];
 
