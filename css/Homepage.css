@@ -37,7 +37,6 @@ h1 {
 	display: inline-block;
 	height: 1em;
 	width: 3px;
-	/*background: black;*/
 	animation: cursor .75s steps(1, start) infinite;
 }
 
