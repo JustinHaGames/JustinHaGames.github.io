@@ -3,35 +3,22 @@
   <head>
     <title>Justin Ha</title>
     <link rel="stylesheet" type="text/css" href="css/Homepage.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="icon"  type="image/png" href="images/Logo.png"
   </head>
 
 
   <body>
-
-    <div id= "social-icons">
-      <a href="https://www.linkedin.com/in/justin-ha-4868517a/" target="_blank">
-        <img src="images/Linkedin.png" height=40px width=40px>
-      </a>
-
-      <a href="https://github.com/JustinHaGames" target="_blank">
-        <img src="images/Github.png" height=40px width=40px>
-      </a>
-    </div>
+<video loop autoplay muted>
+	<source src="images/BetterPortfolioGameplay.mp4" type="video/mp4"/>
+</video>
 <div id = "Outer-container">
-    <div class="filler">
-    </div>
     <div id = "Inner-container">
     <div id = "name">
-      <h1>Justin Ha</h1>
-      <p>Site Undergoing Changes</p>
+      <h1 class='old-text'></h1><h1 class='new-text'></h1>
     </div>
 
-    <div id = "subtitle">
-      <h2>Game Designer</h2>
-    </div>
 </div>
 <div class="filler">
   <div id = "tabs">
@@ -44,13 +31,8 @@
 </div>
 
   </body>
-  <script>
-    var jobs = ['Game Designer', 'Programmer'];
-    var i = 0;
-    setInterval(function() {
-      i = i+1;
-      i = i%jobs.length;
-      $('#subtitle h2').text(jobs[i]);
-    }, 3000);
-  </script>  
+
+<!-- This links to the Homepage javascript-->
+  <script src="Javascript/Homepage.js"></script>
+
 </html>
