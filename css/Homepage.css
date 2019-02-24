@@ -33,11 +33,11 @@ h1 {
 }
 
 .new-text:after {
-	content: '';
+	content: '|';
 	display: inline-block;
 	height: 1em;
 	width: 3px;
-	background: black;
+	/*background: black;*/
 	animation: cursor .75s steps(1, start) infinite;
 }
 
