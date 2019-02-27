@@ -1,6 +1,6 @@
 const text = 'Hi! My name is Justin and I';
 
-const varyingText = ['am a game designer.', 'like creating games about complex emotions.', 'am a pixel artist.', 'love anthropology.', 'am constantly learning new things.', 'play a lot of competitive games.'];
+const varyingText = ['am a game designer.', 'make games focusing on complex emotions.', 'am a pixel artist.', 'love anthropology.', 'am constantly learning new things.', 'play a lot of competitive games.'];
 
 const totalText = text + ' ' + varyingText[0];
 
