@@ -1,6 +1,6 @@
 const text = 'Hi! My name is Justin and I';
 
-const varyingText = ['am a Game Designer.', 'like creating games about complex emotions.', 'am getting better at Pixel Art.', 'love Anthropology.', 'am constantly learning new things.', 'am getting the hang of Web Design.', 'play a lot of competitive games.'];
+const varyingText = ['am a game designer.', 'like creating games about complex emotions.', 'am a pixel artist.', 'love anthropology.', 'am constantly learning new things.', 'am getting the hang of web design.', 'play a lot of competitive games.'];
 
 const totalText = text + ' ' + varyingText[0];
 
@@ -45,11 +45,11 @@ const typeNext = (i) => {
     setTimeout(() => {
       const html = $('.new-text').text();
       $('.new-text').text(html.substring(0, varyingText[i].length - x));
-    }, 100 * x + varyingText[i].length * 100 + 2500);
+    }, 100 * x + varyingText[i].length * 100 + 2000);
   }
   setTimeout(() => {
     typeNext((i + 1) % varyingText.length)
-  }, 200 * varyingText[i].length + 2500)
+  }, 200 * varyingText[i].length + 2000)
 }
 
 $('.games').on("mouseover", function() {
