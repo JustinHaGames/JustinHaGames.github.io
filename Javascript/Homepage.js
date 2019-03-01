@@ -45,7 +45,7 @@ const typeNext = (i) => {
     setTimeout(() => {
       const html = $('.new-text').text();
       $('.new-text').text(html.substring(0, varyingText[i].length - x));
-    }, 100 * x + varyingText[i].length * 100 + 2500);
+    }, 100 * x + varyingText[i].length * 100 + 1500);
   }
   setTimeout(() => {
     typeNext((i + 1) % varyingText.length)
