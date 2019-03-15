@@ -88,6 +88,18 @@ h1 {
 	z-index: 3;
 }
 
+.games {
+	transition: opacity 0.3s;
+}
+
+.about {
+	transition: opacity 0.3s;
+}
+
+.resume {
+	transition: opacity 0.3s;
+}
+
 .games:hover {
 	color: rgb(37,159,248);
 }

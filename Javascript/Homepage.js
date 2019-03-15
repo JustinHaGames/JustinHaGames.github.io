@@ -1,6 +1,6 @@
 const text = 'Hi! My name is Justin and I';
 
-const varyingText = ['am a game designer.', 'make games that explore complex emotions.', 'am a pixel artist.', 'love anthropology.', 'am constantly learning new things.', 'play a lot of competitive games.', 'am fascinated with shaders.'];
+const varyingText = ['am a game designer.', 'make games that explore complex emotions.', 'am a pixel artist.', 'love anthropology.', 'am constantly learning new things.', 'play a lot of competitive games.', 'am love messing around with shaders.'];
 
 const totalText = text + ' ' + varyingText[0];
 
@@ -62,4 +62,24 @@ $('.games').on("mouseout", function() {
   $('video').css('opacity', '0');
   $('.about').css('opacity', '1');
   $('.resume').css('opacity', '1');
+})
+
+$('.about').on("mouseover", function() {
+  $('.games').css('opacity', '0');
+  $('.resume').css('opacity', '0');
+})
+
+$('.about').on("mouseout", function() {
+  $('.games').css('opacity', '1');
+  $('.resume').css('opacity', '1');
+})
+
+$('.resume').on("mouseover", function() {
+  $('.games').css('opacity', '0');
+  $('.about').css('opacity', '0');
+})
+
+$('.resume').on("mouseout", function() {
+  $('.games').css('opacity', '1');
+  $('.about').css('opacity', '1');
 })
