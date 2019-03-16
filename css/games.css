@@ -80,6 +80,11 @@ body{
 	width: 100%;
 }
 
+.better{
+	background: url('../images/better.png');
+	background-size: cover;
+}
+
 .clockshots{
 	background: url('../images/Clockshots.png');
 	background-size: cover;
