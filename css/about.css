@@ -1,6 +1,6 @@
 html, body {
 	background: white;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Monda', sans-serif;
 	width: 100%;
 	height: 100%;
 	margin: 0px;
@@ -51,10 +51,6 @@ html, body {
 	color: rgb(255,75,51);
 }
 
-.interests{
-	text-decoration: underline;
-}
-
 #container{
 	display: flex;
 	width: 100vw;
@@ -81,5 +77,26 @@ html, body {
 }
 
 p {
+	font-size: 22px;
+}
+
+p .Hook {
+	font-size: 25px;
+}
+
+p .interests{
 	font-size: 20px;
+}
+
+#rotating {
+		-webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
 }
