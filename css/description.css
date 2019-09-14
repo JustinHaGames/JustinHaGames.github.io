@@ -139,6 +139,10 @@ img{
     max-width: 750px;
 }
 
+iframe{
+    max-width: 750px;
+}
+
 
 #Text{
    	max-width: 750px;
