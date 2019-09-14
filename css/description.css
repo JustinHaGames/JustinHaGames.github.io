@@ -32,6 +32,19 @@ img {
 	margin: 75px auto;
 }
 
+iframe {
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	width: 50%;
+	height: 445px;
+	border-style: solid; 
+	border-width: 3px; 
+	border-color: black; 
+	padding: 0px;
+	margin: 75px auto;
+}
+
 a{
 	color: black;
 }
@@ -125,6 +138,7 @@ a{
 img{
     max-width: 750px;
 }
+
 
 #Text{
    	max-width: 750px;
