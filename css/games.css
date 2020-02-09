@@ -85,6 +85,16 @@ body{
 	background-size: cover;
 }
 
+.ColorblindSimulator {
+	background: url('../images/ColorblindAudience.jpg');
+	background-size: cover;
+}
+
+.Blinks{
+	background: url('../images/Blinks.jpg');
+	background-size: cover;
+}
+
 .clockshots{
 	background: url('../images/Clockshots.png');
 	background-size: cover;
