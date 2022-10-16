@@ -121,6 +121,8 @@ video {
 	transition: opacity 0.3s;
 	min-width: 100%;
 	min-height: 100%;
+	overflow: hidden;
+	object-fit: fill;
 }
 
 video source {
