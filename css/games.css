@@ -1,11 +1,11 @@
 body{
-	background: 	black;
+	background: 	white;
 	font-family: 'Rubik', sans-serif;
 	margin:			0px;
 }
 
 #topbar{
-	color:				white;
+	color:				black;
 	text-align: 		center;
 	font-size: 			15px;
 	margin: 			10px auto;
@@ -22,12 +22,13 @@ body{
 	top:				0px;
 	right:  			0px;
 	padding:			15px;
-	color:				white;
+	color:				black;
 	height:				40px;
 }
 
 #nav-bar a {
 	text-transform: 	uppercase;
+	color:				black;
 	letter-spacing: 	5px;
 	font-size: 			12px;
 	display: 			inline-block;
@@ -78,6 +79,11 @@ body{
 	text-decoration: 	none; 
 	height: 			100%;
 	width: 				100%;
+}
+
+.TwoDots{
+	background: url('../images/TwoDots.png');
+	background-size: cover;
 }
 
 .better{
